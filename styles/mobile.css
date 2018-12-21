@@ -1,0 +1,598 @@
+/* pour mobile entre 320px 640px */
+@media (max-width:640px){
+    .listsubheader .focuspage , .listsubheader li:nth-child(2) , {
+        display: none;
+    } 
+.finelfooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+    body{
+     overflow-x: hidden;
+    }
+.subheader a {
+    text-decoration: none;
+    color: #605f5f;
+    display: none;
+}
+.contactform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 90px;
+    left: 0px;
+}
+.formloca .endroi {
+    background-color: #ea5858;
+    width: auto;
+    height: 12.2%;
+}
+.formloca {
+    position: relative;
+    top: 50px;
+    left: 0px;
+}
+.etape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+}
+
+.modelcov {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+.modelcov .item:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -59px;
+}
+
+.modelcov .item button {
+    border-radius: 10px;
+    background-color: #ed1c24;
+    width: auto;
+    height: 5.7%;
+    font-family: Arial;
+    color: #f2f1f1;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 150px;
+    margin-right: 590px;
+    border: 0px solid black;
+    white-space: nowrap;
+}
+.modelssliders {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+aside {
+    background-color: #dadada;
+    width: auto;
+    height: 78.9%;
+}
+.modelssliders .bgdroit {
+    float: right;
+    position: absolute;
+    right: 0px;
+    left: unset;
+    top: 894px;
+}
+.modelssliders .bggauche {
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 894px;
+}
+.modelssliders .flechgauche {
+    position: relative;
+    top: -300px;
+    left: 0px;
+}
+.modelssliders .flechdroit {
+    float: right;
+    position: relative;
+    top: -300px;
+    left: 0px;
+}
+    .listsubheader > a {
+    display: none;
+    }
+      
+    
+.branch {
+    background-color: rgb(132, 9, 9);
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 0px;
+    border-radius: 50%;
+}
+.formloca form input {
+    background-color: #fcf9f9;
+    width: auto;
+    height: 8.2%;
+    font-family: Arial;
+    color: #040303;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    border: 0px solid black;
+}
+.vehicle {
+    border-radius: 50%;
+    background-color: #a2a1a1;
+    width: auto;
+    height: auto;
+}
+.vehicle:nth-child(3) {
+    position: relative;
+    left: 0px;
+}
+.formloca form button {
+    background-color: #e91111;
+    width: auto;
+    height: 13.8%;
+    font-family: Arial;
+    color: #fbf5f5;
+    font-size: 29px;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    left: 0;
+    top: 0px;
+}
+.contactform input:nth-child(1), .contactform input:nth-child(2) {
+    border-width: 6.99px;
+    border-color: #000000;
+    border-style: solid;
+    background-color: #b4b4b4;
+    width: auto;
+    height: 13.8%;
+    font-family: Arial;
+    color: #888586;
+    font-size: 48px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+}
+.contactform button {
+    border-radius: 10px;
+    background-color: #ed1c24;
+    width: auto;
+    height: 13%;
+    font-family: Arial;
+    color: #fcf7f8;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+.contactform .messageform {
+    border-width: 6.99px;
+    border-color: #000000;
+    border-style: solid;
+    background-color: #b4b4b4;
+    width: auto;
+    height: 61.4%;
+    font-family: Arial;
+    color: #888586;
+    font-size: 48px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+.pagename {
+    background-color: #f3c3c3;
+    width: 100%;
+    height: 18.1%;
+    position: relative;
+    top: -20px;
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+}
+    .location{
+        display: none;
+    }
+    #headermobile{
+display: inherit;
+    margin-left: 150px;
+    
+    }
+    #headermobile i{
+    position: absolute;
+    left: 0px;
+    }
+    #headermobile em{
+        color:  #f70617;
+        padding-left: 5px;
+    }
+.sectionart .couverture h1 {
+    font-family: Arial;
+    color: #faf9fa;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    left: 0px;
+}
+.sectionart .couverture h2 {
+    font-family: Arial;
+    color: #faf9fa;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    left: -190px;
+}
+.jusq {
+    font-size: 20px !important;
+    width: 50px !important;
+    position: relative;
+    left: 250px !important;
+    top: 35px !important;
+}
+    .horaire{
+    position: relative !important;
+    left: 50px !important;
+    }
+.header ul li img {
+    width: 70px;
+    height: 70px;
+}
+.header ul li p {
+    float: right;
+    color: white;
+    font-family: Algerian;
+    color: #f7f2f3;
+    font-size: 12.88px;
+    font-weight: 400;
+    text-align: center;
+    width: 70px !important;
+    position: relative;
+
+}
+    .icontext{
+    position: relative;
+    left: 5px;
+    }
+.subheader .subheadericons {
+    display: flex;
+    flex-direction: row;
+    /* position: relative; */
+    /* left: -635px; */
+    float: left;
+    position: absolute;
+    right: 0px;
+}
+.sectionart .couverture button {
+    border-radius: 10px;
+    border-width: 2.51px;
+    border-color: #000000;
+    border-style: solid;
+    background-color: #fd1828;
+    width: auto;
+    height: 8.8%;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    top: -20px;
+    left: 250px;
+}
+.modeles .titlemodele .barredroit .subbarredroit {
+    background-color: #fd2626;
+    width: 42%;
+    height: 2px;
+    position: relative;
+    right: -100px;
+}
+.sectionart .couverture p {
+    font-family: Arial;
+    color: #faf9fa;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: inherit;
+    width: auto;
+    margin-left: 49px;
+}
+.sectionart .formsearch {
+    background-color: #0a0909;
+    width: auto;
+    height: 55vh;
+    position: relative;
+    top: 599px;
+    left: -180px;
+}
+.sectionart .formsearch form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    top: -20px;
+}
+.itemsmodels {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    left: 210px;
+}
+.itemsmodels:nth-child(3) {
+    position: relative;
+    top: 0px;
+    visibility: hidden;
+}
+.itemsmodels:nth-child(4) {
+    position: relative;
+    top: 0px;
+}
+.contactinfo .itemcontact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contactinfo .itemcontact p {
+    font-family: Arial;
+    color: #0b0909;
+    font-size: 1.8em;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: -60px;
+    padding-left: 0px;
+}
+.footer {
+    background-color: #030202;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 1950px;
+}
+.footer .titlemodele .barredroit .subbarredroit {
+    background-color: #ff0000;
+    width: 49.3%;
+    height: 3px;
+    position: relative;
+    left: 100px;
+}
+    .focuspage{
+    display: none !important;
+    }
+footer form input {
+    background-color: #f5f3f4;
+    width: 30%;
+    height: 12.7%;
+    font-family: Arial;
+    color: #9e999a;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    border: 0px solid black;
+}
+footer form button {
+    background-color: #ff0000;
+    width: 30%;
+    height: 12.7%;
+    font-family: Arial;
+    color: #0e0a0b;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    border: 0px solid black;
+}
+}
+
+
+@media (min-width:213px)and (max-width:616px){
+    .header{
+        height: 160px;
+    }
+.pagename {
+    background-color: #f3c3c3;
+    width: 100%;
+    height: 18.1%;
+    position: relative;
+    top: -20px;
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.subheader a {
+    text-decoration: none;
+    color: #605f5f;
+    display: none;
+}
+.jusq {
+    font-size: 20px !important;
+    width: 50px !important;
+    position: relative;
+    left: 250px !important;
+    top: 35px !important;
+    display: none;
+}
+.sectionart .couverture button {
+    border-radius: 10px;
+    border-width: 2.51px;
+    border-color: #000000;
+    border-style: solid;
+    background-color: #fd1828;
+    width: auto;
+    height: 5.8%;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    top: -32px;
+    left: 90px;
+}
+.sectionart {
+    background-image: url(../img/eb77598ab21c3dae7475e4792f6e3a3c.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200%;
+    position: relative;
+    top: -40px;
+    display: flex;
+    flex-direction: row;
+}
+.sectionart .formsearch {
+    background-color: #0a0909;
+    width: auto;
+    height: 55vh;
+    position: relative;
+    top: 799px;
+    left: -180px;
+}
+#headermobile {
+    display: inherit;
+    margin-left: 210px;
+    /* position: relative; */
+    /* left: 100px; */
+}
+.subheader .subheadericons {
+    display: flex;
+    flex-direction: row;
+    /* position: relative; */
+    /* left: -635px; */
+    float: left;
+    position: absolute;
+    right: 0px;
+}
+.itemsmodels {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    left: 110px;
+}
+footer form input {
+    background-color: #f5f3f4;
+    width: 30%;
+    height: 12.7%;
+    font-family: Arial;
+    color: #9e999a;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    border: 0px solid black;
+} 
+footer form button {
+    background-color: #ff0000;
+    width: 30%;
+    height: 12.7%;
+    font-family: Arial;
+    color: #0e0a0b;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    border: 0px solid black;
+}
+.modeles .titlemodele .barredroit, .modeles .titlemodele .barregauche {
+    background-color: #f6eaea;
+    width: 22.4%;
+    height: 0.3%;
+    float: left;
+    display: none;
+}
+.footer .titlemodele .barredroit {
+    background-color: white;
+    width: 26.2%;
+    height: 0.7%;
+    position: relative;
+    top: 20px;
+    display: none;
+}
+.footer .titlemodele .barregauche {
+    background-color: white;
+    width: 26.2%;
+    height: 0.7%;
+    position: relative;
+    top: 20px;
+    display: none;
+}
+}
+/* generalement minimul size pour un mobile width;320px selon mon recherche  */
+@media (min-width:320px)and (max-width:435px){
+    .cart img{
+        width: 22px;
+    }
+.subheader a {
+    text-decoration: none;
+    color: #605f5f;
+    display: none;
+}
+.pagename {
+    background-color: #f3c3c3;
+    width: 100%;
+    height: 18.1%;
+    position: relative;
+    top: -20px;
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.subheader .subheadericons li p {
+    float: left;
+    position: relative;
+    left: -48px;
+    top: -35px;
+    font-family: Arial;
+    color: #050404;
+    font-size: 12.88px;
+    font-weight: 700;
+    text-align: center;
+}
+#headermobile em {
+    color: #f70617;
+    padding-left: 5px;
+    font-size: 22px;
+}
+.header ul li img {
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+}
+.subheader a {
+    text-decoration: none;
+    color: #605f5f;
+    display: none;
+}
+    .headerdesktop{
+    position: relative;
+    left: -30px;   
+    }
+    .headermobile{
+     position: relative;
+     left: 30px;
+    }
+}

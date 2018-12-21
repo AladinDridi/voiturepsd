@@ -1,0 +1,141 @@
+.pagename{
+background-color:  #f3c3c3;
+width: 100%;
+height: 18.1%;
+position: relative;
+top: -20px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.pagename h3{
+font-family: Arial;
+color:  #f9f3f4;
+font-size: 36px;
+font-weight: 700;
+font-style: italic;
+text-align: center;
+position: relative;
+padding-left: 20px;
+}
+.pagename h4{
+font-family: Arial;
+color:  #fbf8f8;
+font-size: 36px;
+font-weight: 700;
+font-style: italic;
+text-align: center;
+position: relative;
+top: -35px;
+padding-right: 20px;
+}
+.pagename h4 strong{
+font-family: Arial;
+color:  #090808;
+font-size: 36px;
+font-weight: 700;
+font-style: italic;
+text-align: center;
+}
+.pagename h4 em{
+font-family: Arial;
+color:  #fd003b;
+font-size: 72px;
+font-weight: 700;
+font-style: italic;
+text-align: center;
+}
+.pagesubtitle{
+font-family: Arial;
+color:  #010000;
+font-size: 36px;
+font-weight: 700;
+font-style: italic;
+text-align: center;
+}
+.mapdiv{
+display: flex;
+justify-content: center;
+}
+.contactform{
+display: flex;
+flex-direction: column;
+justify-content: center;
+position: relative;
+top: 90px;
+left: 180px;
+}
+.contactform input:nth-child(1),.contactform input:nth-child(2){
+border-width: 6.99px;
+border-color:  #000000;
+border-style: solid;
+background-color:  #b4b4b4;
+width: 68.5%;
+height: 13.8%;
+font-family: Arial;
+color:  #888586;
+font-size: 48px;
+font-weight: 700;
+font-style: italic;
+text-align: center;   
+}
+.contactform input:nth-child(2){
+position: relative;
+top: 35px;
+}
+ .contactinfo{
+        display: flex;
+        flex-direction:column;
+         justify-content: center;
+    }
+.contactinfo .itemcontact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.contactinfo .itemcontact p{
+font-family: Arial;
+color:  #0b0909;
+font-size: 4em;
+font-weight: 900;
+text-align: center;
+position: relative;
+top: -60px;
+padding-left: 10px;
+}
+.contactinfo .itemcontact img{
+width: 100px;
+height: 100px;
+}
+.contactform .messageform{
+border-width: 6.99px;
+border-color:  #000000;
+border-style: solid;
+background-color:  #b4b4b4;
+width: 68.5%;
+height: 61.4%;
+font-family: Arial;
+color:  #888586;
+font-size: 48px;
+font-weight: 700;
+font-style: italic;
+text-align: center;
+position: relative;
+top: 80px;
+}
+
+.contactform button{
+border-radius: 10px;
+background-color:  #ed1c24;
+width: 68.8%;
+height: 13%;
+font-family: Arial;
+color:  #fcf7f8;
+font-size: 60px;
+font-weight: 700;
+font-style: italic;
+text-align: center;
+position: relative;
+top:120px;
+}

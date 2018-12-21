@@ -1,0 +1,330 @@
+/* code css pour fixer quelque erreur avec les dimensions du tablette */
+@media (min-width:656px)and (max-width:836px){
+li {
+    padding-left: 30px;
+    font-family: Algerian;
+    color: #605f5f;
+    font-size: 22.88px !important;
+    font-weight: 400;
+    text-align: center;
+    transform: scaleY(1.0001);
+}
+.formloca {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.formloca form button {
+    background-color: #e91111;
+    width: 50%;
+    height: 13.8%;
+    font-family: Arial;
+    color: #fbf5f5;
+    font-size: 49px;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    left: 280px;
+    top: -70px;
+}
+.subheader .listsubheader {
+    margin-right: 100px !important;
+}
+.subheader .focuspage {
+    font-size: 22.88px !important;
+}
+.subheader .subheadericons {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -10px;
+    left: -70px !important;
+}
+.modeles .titlemodele h2 {
+    font-family: 'Kaushan Script', cursive;
+    color: #090808;
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    position: relative;
+    top: -50px;
+    left: 30px;
+}
+.sectionart .couverture p {
+    font-family: Arial;
+    color: #faf9fa;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: justify;
+    width: 800px !important;
+    margin-left: 49px;
+}
+.itemsmodels {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    left: 0px;
+}
+.modeles .titlemodele .barredroit .subbarredroit {
+    background-color: #fd2626;
+    width: 42%;
+    height: 2px;
+    position: relative;
+    right: -100px;
+}
+.footer .titlemodele h2 {
+    font-family: Arial;
+    color: #f7f5f5;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: -50px;
+    left: 30px;
+}
+footer form button {
+    background-color: #ff0000;
+    width: 15.9%;
+    height: 12.7%;
+    font-family: Arial;
+    color: #0e0a0b;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    border: 0px solid black;
+}
+.sectionart .formsearch {
+    background-color: #0a0909;
+    width: auto;
+    height: 34.6%;
+    position: relative;
+    top: 650px;
+    left: -650px;
+}
+.header ul li img {
+    width: 70px;
+    height: 70px;
+}
+    .headerdesktop{
+    position: relative;
+    left: -40px;
+    }
+.header ul li p {
+    float: right;
+    color: white;
+    font-family: Algerian;
+    color: #f7f2f3;
+    font-size: 12.88px;
+    font-weight: 400;
+    text-align: center;
+    width: 50px !important;
+    position: relative !important;
+    top: -80px !important;
+    left: 23px;
+}
+.header ul li p {
+    float: right;
+    color: white;
+    font-family: Algerian;
+    color: #f7f2f3;
+    font-size: 22.88px;
+    font-weight: 400;
+    text-align: center;
+    width: 50px !important;
+    position: relative !important;
+     top: -10px !important; 
+     left: 0px; 
+}
+.subheader .subheadericons li p {
+    float: left;
+    position: relative;
+    left: -58px;
+    top: -70px;
+    font-family: Arial;
+    color: #050404;
+    font-size: 22.88px;
+    font-weight: 700;
+    text-align: center;
+}
+.modelcov {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+.modelcov .item:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -59px;
+}
+
+.modelcov .item button {
+    border-radius: 10px;
+    background-color: #ed1c24;
+    width: auto;
+    height: 5.7%;
+    font-family: Arial;
+    color: #f2f1f1;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 150px;
+    margin-right: 590px;
+    border: 0px solid black;
+    white-space: nowrap;
+}
+.modelssliders {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+aside {
+    background-color: #dadada;
+    width: auto;
+    height: 78.9%;
+}
+.modelssliders .bgdroit {
+    float: right;
+    position: absolute;
+    right: 125px;
+    left: unset;
+    top: 932px;
+}
+.modelssliders .bggauche {
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 934px;
+}
+.modelssliders .flechgauche {
+    position: relative;
+    top: -300px;
+    left: 0px;
+}
+.modelssliders .flechdroit {
+    float: right;
+    position: relative;
+    top: -300px;
+    left: unset;
+    right: 130px;
+}
+}
+@media (min-width:837px)and (max-width:1152px){
+.header ul li p {
+    float: right;
+    color: white;
+    font-family: Algerian;
+    color: #f7f2f3;
+    font-size: 22.88px;
+    font-weight: 400;
+    text-align: center;
+    width: 50px !important;
+    position: relative !important;
+     top: -10px !important; 
+     left: 0px; 
+}
+.sectionart .formsearch {
+    background-color: #0a0909;
+    width: auto;
+    height: 34.6%;
+    position: relative;
+    top: 499px;
+    left: -300px;
+}
+.subheader .listsubheader {
+    display: flex;
+    flex-direction: row;
+    margin-right: 200px;
+}
+.subheader .subheadericons {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: -80px;
+}
+.formloca {
+    position: relative;
+    top: 50px;
+    left: 80px;
+}
+    
+}
+@media (max-width:1113px){
+.modelcov {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+.modelcov .item:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -59px;
+}
+
+.modelcov .item button {
+    border-radius: 10px;
+    background-color: #ed1c24;
+    width: auto;
+    height: 5.7%;
+    font-family: Arial;
+    color: #f2f1f1;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 150px;
+    margin-right: 590px;
+    border: 0px solid black;
+    white-space: nowrap;
+}
+.modelssliders {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+aside {
+    background-color: #dadada;
+    width: auto;
+    height: 78.9%;
+}
+.modelssliders .bgdroit {
+    float: right;
+    position: absolute;
+    right: 125px;
+    left: unset;
+    top: 932px;
+}
+.modelssliders .bggauche {
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 934px;
+}
+.modelssliders .flechgauche {
+    position: relative;
+    top: -300px;
+    left: 0px;
+}
+.modelssliders .flechdroit {
+    float: right;
+    position: relative;
+    top: -300px;
+    left: unset;
+    right: 130px;
+}
+
+}
+
+
+
+
+
+
+
+
